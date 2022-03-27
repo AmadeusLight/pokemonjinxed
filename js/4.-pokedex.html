@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    
+    <link rel="stylesheet" href="./pokedex.css">
+    
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    
+    <button onclick="fetchPokemon()">Cambiar Imágen</button>
+    <div class="Pokedex">
+            
+        <div class='trapFlipped'>
+            <div class='rectangle topborder'></div>
+        </div> 
+        
+        <div class='trapFlipped_inner'>
+            <div class='rectangle_inner topborder'></div>
+        </div> 
+
+        <div class="MainLightBG">
+                <div class="MainLight">
+                        <div class="MainLightShine">
+                                <div class="MainLightShiner"></div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="redlight">
+                <div class="redlight_inner"></div>
+        </div>
+        <div class="yellowlight">
+                <div class="yellowlight_inner"></div>
+        </div>
+        <div class="greenlight">
+                <div class="greenlight_inner"></div>
+        </div>
+        
+        <div class="PokedexDisplay">
+            <p id="nombre"></p>
+            <img class="PokedexImg" id= "pokeImg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png">
+            <h3>Types:</h3>
+            <p id="tipo"></p> 
+              <h3>estadisticas:</h3>
+              <p id="estadisticas"></p>
+              <h3>movimientos:</h3>
+              <p id="movimientos"></p>
+
+            d
+        </div>
+
+        <div class="depthbarLeft"></div>
+
+        <div class="AnalogStick">
+                <div class="AnalogStick_inner"></div>
+        </div>
+
+        <div class="depthbarBottom"></div>
+        <div class="depthbarRight"></div>
+
+       
+
+        
+
+        <div class="greenbutton"></div>
+    </div>
+
+    
+</body>
+<footer>
+    <script src="./4.-pokedex.js"></script>
+</footer>
+</html>
